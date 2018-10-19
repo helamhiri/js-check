@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 	  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="container">
+		<img src="res/font.jpg" width="100%" height="110%">
+	</div>
+		<div class="content">
+			<h1>Text editor</h1>
+			<div class="btn">
+	<select class="button" id="list1" onchange="sizet()">
+		<option value="">size</option>
+		<option value="small">20</option>
+		<option value="medium">50</option>
+		<option value="large">100</option>
+	</select>
+	<select class="button" id="list" onchange="font()">
+		<option value="" >fonts</option>
+		<option value="sans-serif" >sans-serif</option>
+		<option value="Comic Sans MS">arial</option>
+		<option value="verdana">verdana</option>
+	</select>
+	
+<button class="button" onclick="kbir()">bold</button>
+<button class="button" onclick="inc()">italic</button>
+<button class="button" onclick="star()">underlined</button>
+</div>
+
+<p style="clear:both" id="par" > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+</div>
+
+</body>
+<script type="text/javascript" src="js/mainn.js"></script>
+</html>
